@@ -44,8 +44,7 @@ def add_employee():
         employee = [name, age]     # List
 
         record = ",".join(employee) + "\n"
-
         f.write(record)
+        print(type(employee))
 add_employee()
 print("Employee added.")
-print(type(employee))
