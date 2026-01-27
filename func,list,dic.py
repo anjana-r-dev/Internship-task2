@@ -1,4 +1,5 @@
-#simple program on write , read, append mode of file i/o
+#program on write , read, append mode of file i/o
+import os
 def main():
     emp_name=input("enter name")
     age=input("enter age")
@@ -11,12 +12,11 @@ if __name__=="__main__":
 with open("Axcend.txt","a") as f:
     f.write(record)
 #using dict to store the file returns
-import os
 def view_employee():
 
-    if not os.path.exists("Axcend.txt"):
-        print("No records found.")
-        return
+    if not os.path.exists("Axcend.txt"):     """try: with open ("Axcend.txt","r") except file not found error """                               
+    print("No records found.")
+    return
     print("\n--- Employee List ---")
 
     with open("Axcend.txt", "r") as f:
