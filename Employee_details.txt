@@ -1,4 +1,4 @@
 Anjana R,AXC079,intern,NA
 Naina,AXC080,Intern,NA
 Sneha,AXC081,Intern,NA
-Amrutha,& "C:/Users/Arjun R Gowrav/AppData/Local/Microsoft/WindowsApps/python3.13.exe" c:/dev/exp1.py,& "C:/Users/Arjun R Gowrav/AppData/Local/Microsoft/WindowsApps/python3.13.exe" c:/dev/exp1.py,& "C:/Users/Arjun R Gowrav/AppData/Local/Microsoft/WindowsApps/python3.13.exe" c:/dev/exp1.py
+Anjana,123,Intern,Na

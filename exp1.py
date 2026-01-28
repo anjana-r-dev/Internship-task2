@@ -1,15 +1,20 @@
 #Adding employee info
 #import os
 def add_employee_details():
-    emp_id=input("Enter Employee ID: ")
     try:
         with open("Employee_details.txt","r") as f:
+            print("File opened successfully")
             lines=f.readlines()
     except FileNotFoundError:
+            print("File not found")
             lines=[]
+    emp_id=input("Enter Employee ID: ")
     #check for duplicate emp_id
     for line in lines:
         data=line.strip().split(",")
+        if len(data) != 4:    # skip bad lines
+            continue
+
         if data[1]==emp_id:
              print("Employee ID already exists!")
              return
